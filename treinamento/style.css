@@ -1,0 +1,21 @@
+
+
+body {background-image: linear-gradient(to right, rgb(250, 248, 248) , rgb(231, 10, 10));}
+main{
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+    
+
+h1{ 
+    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p{
+    color: blue;
+}

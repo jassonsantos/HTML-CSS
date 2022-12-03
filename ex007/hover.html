@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exeplos de hover</title>
+    
+    <style>
+        
+        body{font-family: Arial, Helvetica, sans-serif;}
+    
+        div:hover>p{
+            display: block;
+            background-color: blue;
+            color: aliceblue;
+            width: 200px;
+
+        }
+        div:hover{
+            color: brown;
+            width: 200px;
+        }
+        div > p{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>exeplos de hover</h1>
+    <p>passe o mouse</p>
+    <div>
+        passa aqui
+        <p><a href="links.html">texto escondido</a></p>
+    </div>
+</body>
+</html>

@@ -14,8 +14,10 @@ body{
     background-image:url(img/fundo.jpg);
     color: aliceblue;
     background-size: cover;
-    
-    
+    background-position: center center;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 
 }
@@ -23,16 +25,22 @@ header>.menu{
     box-sizing:border-box;
     background-color: rgb(142, 142, 189);
     border-radius: 10px;
-    
-    
-
+}
+section{
+    text-align: center;
+}
+main{
+    border: 3px solid white;
+    width: 600px;
+    margin: auto;  
+    background-color: rgba(240, 248, 255, 0.096);
+    border-radius: 20px;
+    background-attachment: scroll;
 }
 img{
     border-radius: 150px;
-    width: 100px;
-    height: 100px;
-    
-    
+    width: 200px;
+    height: 200px;
 }
 article{
     text-align: justify;
@@ -63,12 +71,11 @@ article{
         <section>
             <h1>Quem Sou?</h1>
             <img class="foto" src="img/108269957_1043734622724870_1680820390120480792_n.jpg" alt="Foto Jasson">
-        </section>
-        <section>
+
             <h2>
-                Apaixonado por tecnologia, tenho á seguintes habilidades, HTML/CSS/...(ATUALIZANDO).
+                Apaixonado por tecnologia, tenho á seguintes habilidades, HTML/CSS/...(<abbr title="Estudando">ATUALIZANDO</abbr>).
             </h2>
-            <p>Estudando</p>
+
         </section>        
         
      <!--objetivos-->
@@ -95,7 +102,7 @@ article{
                 Estudar Javascript
 
                 <div class="gramworks">
-                    Estudas framworks
+                    <h3>Estudas framworks</h3>
                     <ul>
                         <li>Angular</li>
                         <li>React</li>

@@ -13,6 +13,7 @@ html, body{
 }
 main {
     height: 100vh;
+    width: 100vw;
     position: relative;
     background-color: green;
 }

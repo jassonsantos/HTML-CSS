@@ -15,8 +15,7 @@ main{
     background-size: cover;
 }   
 section#telefone{
-
-    width: 600px;
+    width: 311px;
     height: 627px;
     position: absolute;
     top: 50%;
@@ -30,6 +29,18 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#rede-social>a> img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+section#rede-social>a> img:hover{
+    border: 4px solid rgba(199, 193, 193, 0.795) ;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px, 5px, 10px rgba(0, 0, 0, 0.521);
+    transition: transform .3s, border 0.5s;
 }
 
 

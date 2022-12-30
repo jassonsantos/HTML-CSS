@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background: url(imagens/fundo2.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#tela{
+    background: url(imagens/02-42\ -\ Copia.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 23px;
+    width: 550px;
+    height: 579px;
+}
+iframe#tela{
+    position: relative;
+    
+    width: 267px;
+    height: 471px;
+}
+
+

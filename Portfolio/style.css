@@ -24,7 +24,7 @@ section#tela{
 }
 iframe#tela{
     position: relative;
-    
+    background-size: cover;
     width: 267px;
     height: 471px;
 }

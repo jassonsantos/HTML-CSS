@@ -6,26 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos</title>
     <style>
-        html, body{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;         
+        *{
+            margin: 0px;  
         }
 .conteiner{
     background-color: black;
-    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
     height: 100vh;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 30px;
-   
+    margin: 0 auto;
 }
-.conteiner>div{
-    background-color: azure;
+.conteiner > div{
+    background-color: rgb(204, 151, 81);
+    flex:  200px     
+}
+div{
+    margin: 10px;
 }
 main{
     background-color: aqua;
@@ -37,12 +34,12 @@ main{
 <body>
     <main>
         <section class="conteiner">
-            <div class="parte1"></div>
-            <div class="parte1"></div>
-            <div class="parte2"></div>
-            <div class="parte2"></div>
-            <div class="parte3"></div>
-            <div class="parte3"></div>
+            <div class="parte1"><img src="" alt=""></div>
+            <div class="parte1"><img src="" alt=""></div>
+            <div class="parte2"><img src="" alt=""></div>
+            <div class="parte2"><img src="" alt=""></div>
+            <div class="parte3"><img src="" alt=""></div>
+            <div class="parte3"><img src="" alt=""></div>
         </section>
         
     </main>

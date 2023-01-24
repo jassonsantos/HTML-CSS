@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+
+    <style>
+        html, body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;         
+        }
+.conteiner{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+   
+}
+.conteiner>div{
+    background-color: azure;
+}
+main{
+    background-color: aqua;
+}
+
+       
+    </style>
+</head>
+<body>
+    <main>
+        <section class="conteiner">
+            <div class="parte1"></div>
+            <div class="parte1"></div>
+            <div class="parte2"></div>
+            <div class="parte2"></div>
+            <div class="parte3"></div>
+            <div class="parte3"></div>
+        </section>
+        
+    </main>
+</body>
+</html>

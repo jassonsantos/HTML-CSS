@@ -6,48 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos</title>
     <style>
-        *{
-          border: 0px;
-          padding: 0px;
-          margin: 0px;
-          font-family: Arial, Helvetica, sans-serif;        
-        }     
-        main{
-            background-color: black;
+        html, body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
             width: 100%;
-            height: 1300px;
+            height: 100%;         
         }
-        section{
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);       
-            background-color: aliceblue;
-            top: 650px;
-            height: 1250px;
-            width: 300px ;
-            border-radius: 10px;
+.conteiner{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
 
-        }
-        div{
-            
-            background-color: blue;
-            max-width: 260px;
-            min-width: 80px;
-            width: 260px;
-            height: 180px;
-            border: 1px solid black;
-            border-radius: 10px;
-            margin: 20px;                 
-        }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+   
+}
+.conteiner>div{
+    background-color: azure;
+}
+main{
+    background-color: aqua;
+}
 
-        
        
     </style>
 </head>
 <body>
     <main>
-        <section>
+        <section class="conteiner">
             <div class="parte1"></div>
             <div class="parte1"></div>
             <div class="parte2"></div>

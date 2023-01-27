@@ -17,7 +17,7 @@ height: 100%;
 margin: 0 auto;
 }
 .conteiner > div{
-background-color: rgb(204, 151, 81);
+background-color: rgb(0, 0, 0);
 flex: 200px     
 }
 div{

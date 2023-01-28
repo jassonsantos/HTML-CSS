@@ -31,7 +31,9 @@ display: block;
 border-radius: 10px 10px 0px 0px;
 }
 main{
-background-color: aqua;
+background-color: rgb(239, 243, 243);
+
+
 }
 p{
 color: aliceblue;

@@ -10,6 +10,7 @@
     <li><a href="https://jassonsantos.github.io/HTML-CSS/dparalax/index.html">Segundo projeto</a></li>
    <li><a href="https://jassonsantos.github.io/HTML-CSS/Portfolio/index.html">Portifólio</a></li>
    <li><a href="https://jassonsantos.github.io/HTML-CSS/Portfolio/projetos.html">Pag de Projetos</a></li>
+   <li><a href="#">paralax</a></li>
     
     
 </ul>

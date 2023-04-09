@@ -7,6 +7,8 @@
 <h2>jasson santos</h2> 
 <ul>
     <li><a href="https://jassonsantos.github.io/HTML-CSS/projeto/pagina.html">Meu   Primeiro projeto</a></li>
-    <LI><a href="https://jassonsantos.github.io/HTML-CSS/dparalax/index.html">Segundo projeto</a></LI>
-
+    <li><a href="https://jassonsantos.github.io/HTML-CSS/dparalax/index.html">Segundo projeto</a></li>
+   <li><a href="https://jassonsantos.github.io/HTML-CSS/Portifólio/index.html">Portifólio</a></li>
+    
+    
 </ul>
